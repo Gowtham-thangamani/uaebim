@@ -1,0 +1,22 @@
+# UAE BIM - Robots.txt
+# https://www.uaebim.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /blog.html
+Allow: /companies.html
+Allow: /contact.html
+
+# Disallow admin area
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.uaebim.com/sitemap.xml
+
+# Crawl-delay for respectful crawling (optional)
+Crawl-delay: 10

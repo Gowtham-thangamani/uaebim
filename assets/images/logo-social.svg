@@ -1,0 +1,42 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="630" fill="#1B2838"/>
+
+    <!-- Decorative Elements -->
+    <circle cx="100" cy="100" r="150" fill="#FF6B35" opacity="0.05"/>
+    <circle cx="1100" cy="530" r="180" fill="#FF6B35" opacity="0.05"/>
+
+    <!-- Logo Background -->
+    <rect x="150" y="230" width="140" height="140" rx="18" fill="#1B2838" stroke="#FF6B35" stroke-width="2"/>
+
+    <!-- BIM Icon (scaled) -->
+    <rect x="248" y="248" width="8" height="75" fill="#FF6B35"/>
+    <rect x="200" y="248" width="58" height="7" fill="#FF6B35"/>
+    <rect x="165" y="268" width="54" height="60" stroke="#FF6B35" stroke-width="4" fill="none"/>
+    <text x="170" y="358" font-family="Arial" font-weight="bold" font-size="24" fill="white">BIM</text>
+
+    <!-- Main Title -->
+    <text x="330" y="270" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">
+        UAE BIM Services
+    </text>
+
+    <!-- Subtitle -->
+    <text x="330" y="330" font-family="Arial, sans-serif" font-size="30" font-weight="600" fill="#FF6B35">
+        Leading BIM Specialists in UAE
+    </text>
+
+    <!-- Description -->
+    <text x="330" y="385" font-family="Arial, sans-serif" font-size="22" fill="#a0aec0">
+        Top BIM Services Firm in UAE
+    </text>
+
+    <!-- Location -->
+    <text x="330" y="425" font-family="Arial, sans-serif" font-size="22" fill="#a0aec0">
+        Dubai • Sharjah • Abu Dhabi
+    </text>
+
+    <!-- Bottom Tagline -->
+    <text x="330" y="520" font-family="Arial, sans-serif" font-size="18" fill="#718096">
+        BIM Modeling, Coordination &amp; Project Support Services
+    </text>
+</svg>
