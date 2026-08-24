@@ -229,7 +229,7 @@
             </div>
             <div class="contact-form">
                 <h3>Send us a Message</h3>
-                <form id="contactForm">
+                <form id="contactForm" data-das-lead data-form-type="contact">
                     <div class="form-row">
                         <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Your name" required></div>
                         <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="your@email.com" required></div>
@@ -316,7 +316,10 @@
         });
         window.addEventListener('load',function(){setTimeout(function(){document.querySelector('.page-transition').classList.add('slide-out')},800)});
         document.querySelectorAll('a').forEach(function(link){if(link.hostname===window.location.hostname&&!link.hash){link.addEventListener('click',function(e){var href=this.getAttribute('href');if(href&&href!=='#'&&!href.startsWith('#')&&!href.startsWith('http')){e.preventDefault();document.querySelector('.page-transition').classList.remove('slide-out');setTimeout(function(){window.location.href=href},600)}})}});
-        document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();alert('Thank you for your inquiry! Our BIM team will contact you shortly.');this.reset()});
+        // Contact form submission handled by DAS Central Leads (/leads.js via data-das-lead)
     </script>
+<!-- DAS Central Leads -->
+<script>window.DAS_LEADS_ENDPOINT='https://www.dasandpartnersengineering.com/leads/api/submit.php';window.DAS_LEADS_SITE='uaebim';</script>
+<script src="/leads.js" defer></script>
 </body>
 </html>
